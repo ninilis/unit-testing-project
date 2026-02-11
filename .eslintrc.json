@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "jest": true,
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "import/extensions": ["error", "always"],
+    "linebreak-style": "off",  // ← отключаем проверку LF/CRLF
+    "indent": ["error", 2],    // ← 2 пробела для отступов
+    "import/prefer-default-export": "off", // ← разрешаем named export
+    "no-console": "off"
+  }
+}

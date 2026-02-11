@@ -1,10 +1,12 @@
 {
   "name": "unit-testing-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Unit testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "build": "babel src -d dist"
   },
   "private": true,
   "keywords": [],
@@ -15,9 +17,20 @@
     "@babel/cli": "^7.28.6",
     "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.29.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
     "jest": "^30.2.0"
   },
   "dependencies": {
     "core-js": "^3.48.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninilis/unit-testing-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ninilis/unit-testing-project/issues"
+  },
+  "homepage": "https://github.com/ninilis/unit-testing-project#readme"
 }
