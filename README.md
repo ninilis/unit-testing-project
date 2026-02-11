@@ -1,6 +1,3 @@
-
-[Tests](https://github.com/ninilis/unit-testing-project/actions/workflows/tests.yml/badge.svg)
-
 Домашнее задание к лекции «Unit-тестирование»
 Важно: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
