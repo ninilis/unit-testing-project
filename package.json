@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest --coverage",
     "test:watch": "jest --watch",
-    "build": "babel src -d dist"
+    "build": "babel src -d dist",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
   },
   "private": true,
   "keywords": [],

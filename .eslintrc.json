@@ -1,15 +1,17 @@
 {
-  "extends": "airbnb-base",
   "env": {
-    "jest": true,
+    "browser": true,
+    "es2021": true,
     "node": true,
-    "browser": true
+    "jest": true
+  },
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
   },
   "rules": {
-    "import/extensions": ["error", "always"],
-    "linebreak-style": "off",  // ← отключаем проверку LF/CRLF
-    "indent": ["error", 2],    // ← 2 пробела для отступов
-    "import/prefer-default-export": "off", // ← разрешаем named export
-    "no-console": "off"
+    "no-console": "off",
+    "import/extensions": ["error", "ignorePackages"]
   }
 }
